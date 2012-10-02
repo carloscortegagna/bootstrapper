@@ -1,2 +1,6 @@
 .DS_Store
-xcuserdata
+.svn
+.sass-cache
+.bundle
+.yardoc
+*~

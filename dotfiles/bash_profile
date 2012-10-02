@@ -6,7 +6,17 @@ if [ -f ~/.bashrc ]; then
 fi
 
 #
-# Let this rvm shit live here instead of main configuration, 
+# Let this rvm shit live here instead of main configuration,
 # cuz rvm installer is annoying and re-adds them!
 #
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+### ALIAS ###
+alias be='bundle exec'
+alias ber='bundle exec rake'
+alias ber_new_db='bundle exec rake db:drop db:create db:migrate db:seed'
+alias reload='source ~/.bashrc'
+alias git-log='git log --pretty=format:"%C(yellow)%h%C(reset) %C(green)%ar%C(reset) %C(bold blue)%an%C(reset) %C(red)%d%C(reset) %s" --graph --abbrev-commit --decorate'
+alias l='ls -la'
+
+export EDITOR="subl"
