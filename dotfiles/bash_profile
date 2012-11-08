@@ -14,9 +14,10 @@ fi
 ### ALIAS ###
 alias be='bundle exec'
 alias ber='bundle exec rake'
-alias ber_new_db='bundle exec rake db:drop db:create db:migrate db:seed'
+alias berdb='bundle exec rake db:drop db:create db:migrate db:seed'
 alias reload='source ~/.bashrc'
 alias git-log='git log --pretty=format:"%C(yellow)%h%C(reset) %C(green)%ar%C(reset) %C(bold blue)%an%C(reset) %C(red)%d%C(reset) %s" --graph --abbrev-commit --decorate'
 alias l='ls -la'
+alias closure='java -jar /Users/cscorte/Applications/Closure/compiler.jar'
 
 export EDITOR="subl"

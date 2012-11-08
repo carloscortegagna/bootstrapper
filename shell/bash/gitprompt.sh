@@ -27,4 +27,5 @@ LIGHT_PURPLE="\[\033[1;35m\]"
 LIGHT_CYAN="\[\033[1;36m\]"
 WHITE="\[\033[00m\]"
 
-export PS1="$LIGHT_GREEN\h$LIGHT_CYAN \w$WHITE:$YELLOW\$(parse_git_branch)\$(parse_svn_branch)\$(parse_hg_branch)$WHITE\$ "
+# export PS1="$LIGHT_GREEN\h$LIGHT_CYAN \w$WHITE:$YELLOW\$(parse_git_branch)\$(parse_svn_branch)\$(parse_hg_branch)$WHITE\$ "
+export PS1="$LIGHT_CYAN\w$WHITE:$YELLOW\$(parse_git_branch)$WHITE\$ "
