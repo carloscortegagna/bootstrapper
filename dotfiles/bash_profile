@@ -14,6 +14,8 @@ fi
 ### ALIAS ###
 alias be='bundle exec'
 alias ber='bundle exec rake'
+alias ber_staging='bundle exec cap staging rake_exec -s rake_cmd='
+alias ber_production='bundle exec cap production rake_exec -s rake_cmd='
 alias berdb='bundle exec rake db:drop db:create db:migrate db:seed'
 alias reload='source ~/.bashrc'
 alias git-log='git log --pretty=format:"%C(yellow)%h%C(reset) %C(green)%ar%C(reset) %C(bold blue)%an%C(reset) %C(red)%d%C(reset) %s" --graph --abbrev-commit --decorate'
