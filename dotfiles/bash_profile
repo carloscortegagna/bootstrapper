@@ -20,6 +20,9 @@ alias berdb='bundle exec rake db:drop db:create db:migrate db:seed'
 alias reload='source ~/.bashrc'
 alias git-log='git log --pretty=format:"%C(yellow)%h%C(reset) %C(green)%ar%C(reset) %C(bold blue)%an%C(reset) %C(red)%d%C(reset) %s" --graph --abbrev-commit --decorate'
 alias l='ls -la'
-alias closure='java -jar /Users/cscorte/Applications/Closure/compiler.jar'
+alias closure='java -jar $HOME/Applications/Closure/compiler.jar'
+alias linode='$HOME/.open_linode.sh'
+alias spotify='$HOME/.launch_spotify.sh'
+alias kill_ssh='kill -9 `ps -eo pid,args | grep "ssh " | grep -v "grep" | cut -c1-6`'
 
 export EDITOR="subl"
