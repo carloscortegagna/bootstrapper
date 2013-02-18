@@ -22,7 +22,10 @@ alias git-log='git log --pretty=format:"%C(yellow)%h%C(reset) %C(green)%ar%C(res
 alias l='ls -la'
 alias closure='java -jar $HOME/Applications/Closure/compiler.jar'
 alias linode='$HOME/.open_linode.sh'
-alias spotify='$HOME/.launch_spotify.sh'
+alias ssh_tunnel='$HOME/.open_ssh_tunnel.sh'
 alias kill_ssh='kill -9 `ps -eo pid,args | grep "ssh " | grep -v "grep" | cut -c1-6`'
+alias postgres_start='pg_ctl -D /usr/local/var/postgres -l logfile start'
+alias postgres_stop='pg_ctl -D /usr/local/var/postgres -l logfile stop'
+alias fr='foreman run '
 
 export EDITOR="subl"
