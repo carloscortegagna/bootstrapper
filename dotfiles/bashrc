@@ -32,5 +32,4 @@ export CLICOLOR=1
 #
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="~/Applications/adt/ndk/:~/Applications/adt/sdk/platform-tools/:~/Applications/adt/sdk/tools/:/usr/local/heroku/bin:$PATH"
